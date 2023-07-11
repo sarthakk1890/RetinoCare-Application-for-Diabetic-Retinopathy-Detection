@@ -1,38 +1,261 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.front {
+  background-image: url('../public/tang.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.heading {
+  color: brown;
+  padding: 1em;
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.heading img {
+  width: 6vw;
+  margin-top: -0.5vw;
+  position: fixed;
+}
+
+.heading h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.7vw;
+  margin-left: 6vw;
+}
+
+.dr_start {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 70vh;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px rgba(255, 255, 255, 0.5);
+  border-left: 1px rgba(255, 255, 255, 0.5);
+  width: 80vw;
+  margin: 2rem 10vw;
+  backdrop-filter: blur(5px);
+  padding-top: 2vh;
+}
+
+
+.dr_start h1 {
+  font-size: 5vw;
+  font-family: 'Source Serif Pro', serif;
+  color: rgb(0 0 0);
+}
+
+.dr_start button {
+  font-size: 1.5vw;
+  margin: 0.7em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.log_main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.login {
+  background: url('../public/sandbox.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  margin: 31vh auto 0 auto;
+  padding: 2em;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(15px);
+  width: 40%
+}
+
+.form-group {
+  margin-bottom: 1em;
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.form-group p {
+  font-size: 0.8em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login .btn-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.register {
+  margin: 20vh auto 0 auto;
+}
+
+.homeMain{
+  background-image: url('../src/images/med.jpg');
+  /* backdrop-filter: blur(0px); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh);
+}
+
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.predictText {
+  position: absolute;
+  font-size: 4.3em;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+  z-index: 1;
+}
+
+.homeImage {
+  position: relative;
+}
+
+.homeImage img {
+  object-fit: cover;
+}
+
+.homeHead{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #660033;
+  margin-bottom: 3em;
+}
+
+.homeHead h1 , .historyPage h1, .about_heading{
+  font-size: 5em;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+.navHome{
+  width: 100%;
+  background-color: #d1d6e2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.navItems{
+  display: flex;
+  list-style: none;
+  top: 50%;
+  margin-top: 10px;
+  padding-right: 60px;
+}
+
+.navItems a{
+  text-decoration: none;
+  color: black;
+  border: none;
+  position: relative;
+}
+
+.naveye img{
+  width: 10vh;
+}
+
+.naveye{
+  margin-right: auto;
+}
+.navItems li{
+  display: inline-block;
+  padding-left: 40px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.historyPage{
+  background-image: url('./images/capsule.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.about_body{
+  background-color: rgb(212, 209, 209);
+  background-image: url('./images/about_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(50px);
+  padding-top: 5em;
+  padding-bottom: 30vh;
+}
+
+.about_body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  z-index: -1;
+}
+
+.custom-shadow {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.custom-card {
+  background-color: rgb(232, 229, 255);
+}
+
+.about_body_parah{
+  font-size: 1.4em;
+  text-align: justify;
+  font-family: 'Crimson Text', serif;
+  padding-top: 0.15em;
+}
+
+.collapsible-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.collapsible-content.open {
+  height: auto;
+}
+
+.collapse_element {
+  border-bottom: 2px solid lightblue;
+
+}
+
+.about_body_parah{
+  background-color: rgb(214, 236, 244);
+  padding: 15px;
+  margin-bottom: 10px;
 }
