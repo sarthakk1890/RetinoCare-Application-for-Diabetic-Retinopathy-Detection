@@ -1,7 +1,7 @@
 # RetinoCare
 
 A full-stack MERN project which predicts the stage of diabetic retinopathy using the Transfer Learning technique, the API of the trained model is implemented over a ReactJS application.
-The API used in the code is available [here](https://github.com/sarthakk1890/DR_API)
+The API used in the project is available [here](https://github.com/sarthakk1890/DR_API)
 
 ## Features
 1. Login, Signup, and Logout
