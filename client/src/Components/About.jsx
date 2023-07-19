@@ -135,6 +135,7 @@ const About = () => {
 
   ];
 
+  
 
   return (
 
@@ -144,7 +145,7 @@ const About = () => {
         <Navbar />
       </div>
 
-      <div className='about_body' style={ state ? {} : {height: '100vh'}}>
+      <div className='about_body'>
         <div className="container">
           <h1 className='about_heading text-center' style={{ marginBottom: '10vh' }}>Know More</h1>
           <div className='container'>

@@ -43,6 +43,7 @@ const Signup = () => {
                 password: '',
                 cpassword: ''
             })
+            return;
         }
     }
 

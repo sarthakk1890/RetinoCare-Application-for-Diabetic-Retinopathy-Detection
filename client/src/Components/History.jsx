@@ -58,13 +58,13 @@ const History = () => {
 
 
   return (
-    <>
+    <div className='history_main'>
       <div className="fixed-top" >
         <Navbar />
       </div>
       {hisFetched.length > 0 ? (
         <div>
-          <div className='historyPage' style={ hisFetched.length >= 4 ? {} : {height: '100vh'}}>
+          <div className='historyPage' style={{height: '100vh'}}>
             <div className="d-flex justify-content-center" >
               <h1 className="text-center scroll-heading" style={{ marginTop: '1em' }} ref={headingRef}>History</h1>
             </div>
@@ -97,7 +97,7 @@ const History = () => {
           </div>
         </div>
       }
-    </>
+    </div>
   );
 };
 
