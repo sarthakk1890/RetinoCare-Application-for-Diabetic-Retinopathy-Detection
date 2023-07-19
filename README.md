@@ -3,6 +3,8 @@
 A full-stack MERN project which predicts the stage of diabetic retinopathy using the Transfer Learning technique, the API of the trained model is implemented over a ReactJS application.
 The API used in the project is available [here](https://github.com/sarthakk1890/DR_API)
 
+**Note:** Before starting the backend server, replace the username and password from the mongo database [URL](https://github.com/sarthakk1890/RetinoCare-Application-for-Diabetic-Retinopathy-Detection-/edit/main/backend/db.js)
+
 ## Features
 1. Login, Signup, and Logout
 2. Password protection using hashing and salting
