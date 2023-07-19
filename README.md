@@ -39,7 +39,6 @@ _**For Web**_
 5.  Mongoose
 6.  React-router-dom
 7.  React-toastify
-8.  Redux-toolkit
    
 _**For API**_
 1.  Tensorflow
