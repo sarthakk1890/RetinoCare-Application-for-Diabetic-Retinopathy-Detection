@@ -3,8 +3,7 @@ const { Schema } = mongoose
 
 const HistorySchema = new Schema(
     {
-        user: { //it is added so that the notes of someone else cannot be accessed by someone 
-            // type: mongoose.Schema.Types.ObjectId,
+        user: { 
             type: String,
             ref: 'user'
         },
