@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const database_name = 'retinopathy' //database name
-const mongoURL = `mongodb+srv://SarthakSingh:hello123sarthak@diabeticretinpathy.wn2vpbi.mongodb.net/${database_name}?retryWrites=true&w=majority`
+const mongoURL = `mongodb+srv://<username>:<password>@diabeticretinpathy.wn2vpbi.mongodb.net/${database_name}?retryWrites=true&w=majority`
 
 
 
