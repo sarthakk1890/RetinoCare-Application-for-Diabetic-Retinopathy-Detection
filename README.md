@@ -16,7 +16,7 @@ The API used in the project is available [here](https://github.com/sarthakk1890/
 10. A unique token is saved to local storage during login/signup and is removed during logout
 
 ## Technologies
-** For Web **
+_**For Web**_
 1. ReactJS framework
 2. JavaScript
 3. NodeJS
@@ -26,12 +26,12 @@ The API used in the project is available [here](https://github.com/sarthakk1890/
 7. Bootstrap
 8. Cloudinary
    
-** For API **
+_**For API**_
 1. Python
 2. Fast API
 
 ## Packages and Libraries
-** For Web **
+_**For Web**_
 1.  Bcrypt
 2.  Cors
 3.  Express-validator
@@ -41,7 +41,7 @@ The API used in the project is available [here](https://github.com/sarthakk1890/
 7.  React-toastify
 8.  Redux-toolkit
    
-** For API **
+_**For API**_
 1.  Tensorflow
 2.  Pandas
 3.  Numpy
