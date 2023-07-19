@@ -5,7 +5,6 @@ const fetchuser = (req,res,next) =>{
     const token = req.header('auth-token');
 
     if(!token){
-        // console.log('first')
         res.status(401).json({error: "Please authenticate using a vlid token"});
     }
 
