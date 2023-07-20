@@ -46,3 +46,6 @@ _**For API**_
 1.  Tensorflow
 2.  Pandas
 3.  Numpy
+
+## Work To Do
+1. Making the website responsive
