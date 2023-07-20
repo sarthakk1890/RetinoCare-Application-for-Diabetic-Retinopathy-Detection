@@ -1,4 +1,6 @@
 # RetinoCare
+[Link](https://resilient-salmiakki-77b263.netlify.app/)
+_This hosted website didn't predict the severity because the API is too big to be hosted for free, so rather it gives results as **Test**_
 
 A full-stack MERN project which predicts the stage of diabetic retinopathy using the Transfer Learning technique, the API of the trained model is implemented over a ReactJS application.
 The API used in the project is available [here](https://github.com/sarthakk1890/DR_API)
