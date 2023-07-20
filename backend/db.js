@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const database_name = 'retinopathy' //database name
 const mongoURL = `mongodb+srv://<username>:<password>@diabeticretinpathy.wn2vpbi.mongodb.net/${database_name}?retryWrites=true&w=majority`
-
+//replace <username> and <password>
 
 
 const connectTOMongo = async() =>{
