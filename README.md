@@ -19,7 +19,7 @@ The API used in the project is available [here](https://github.com/sarthakk1890/
 
 ## Technologies
 _**For Web**_
-1. ReactJS framework
+1. ReactJS
 2. JavaScript
 3. NodeJS
 4. Express
