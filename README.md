@@ -1,5 +1,5 @@
 # RetinoCare
-[Link](https://resilient-salmiakki-77b263.netlify.app/) ('<br>')
+[Link](https://resilient-salmiakki-77b263.netlify.app/) <br>
 _This hosted website didn't predict the severity because the API is too big to be hosted for free, so rather it gives results as **Test**_
 
 
